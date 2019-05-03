@@ -59,9 +59,6 @@ a
 		margin-top: 3rem
 		display: block
 
-// .header-wrap
-// 	height: 94vh
-// 	background: transparent
 
 .container-wrap
 	display: flex
@@ -94,7 +91,7 @@ a
 .phone
 	width: 38rem
 	margin-bottom: -170px
-		
+
 
 section,
 footer
@@ -103,6 +100,7 @@ footer
 	padding: 6rem 0
 
 	h2
+		font-family: "Open Sans", sans-serif
 		color: #5f6767
 		font-weight: 100
 		font-size: 2.5rem
@@ -110,6 +108,8 @@ footer
 		color: #959595
 		font-size: 0.9rem
 
+.header-descr
+	font-size: 0,93rem
 
 .portfolio
 	padding: 0
@@ -122,7 +122,7 @@ footer
 		flex-direction: column
 		flex: 1
 		height: 300px
-		min-width: 380px
+		min-width: 390px
 		justify-content: center
 		background-color: tomato
 		padding: 2rem
@@ -160,14 +160,14 @@ footer
 	.items:nth-child(3)
 		background: url('/img/im2.png')
 		background-size: cover
-	
+
 	.items:nth-child(4)
 		background: #BD8CBF
 
 	.items:nth-child(5)
 		background: url('/img/im1.png')
 		background-size: cover
-	
+
 	.items:nth-child(6)
 		background: #82CA9C
 
@@ -229,7 +229,7 @@ h3
 	p
 		color: #99AAB8
 		margin-bottom: 2rem
-		
+
 .good-item.popular
 	background-color: #fff
 	box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.06)
@@ -267,10 +267,55 @@ h3
 	a
 		color: #C5C5C5
 		margin-right: 1rem
-		
+
 
 footer
 	background-color: #192431
 	color: #fff
+	font-size: 0.8rem
+	h4
+		margin-bottom: 1.5rem
+	p
+		color: #fff
+		padding-bottom: 3rem
+	.foot-wrap-menu
+		padding: 0
+		margin: 0
+		list-style: none
+
+.foot-menu
+	display: flex
+	justify-content: space-between
+	padding-right: 3rem
+
+
+.foot-right
+	margin-left: 10rem
+	p
+		font-size: 0.7rem
+		width: 19rem
+		margin-top: 1.5rem
+		color: #57697F
+
+.search-wrapper
+	display: flex
+	.Search
+		flex: 1
+		height: 3.5rem
+		border: none
+		font-size: 1.6rem
+		padding-left: 1rem;
+
+	.submit
+		background: #82ca9c
+		border: none
+		color: #fff
+		height: 3.5rem
+		width: 4rem
+		box-sizing: border-box
+		font-size: 2rem
+
+
+
 
 @import "media" // Always at the end
