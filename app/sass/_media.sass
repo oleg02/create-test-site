@@ -9,7 +9,15 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
-  
+
+  .text-container
+    margin-bottom: 2rem
+
+  .last-news-block
+    padding-bottom: 4rem
+
+  html
+    font-size: 14px
 
 // ≥992px
 +media-breakpoint-down(md)
@@ -19,7 +27,37 @@
 
 // ≥576px
 +media-breakpoint-down(xs)
+  html
+    font-size: 13px
 
+  section
+    padding: 4rem 0
+
+  .navbar
+    .navbar-brand
+      margin-left: 15px
+  .foot-right
+    margin-left: 0
+
+  .good-item
+    min-width: 300px
+    margin-bottom: 2rem
+    padding: 3rem
+  .portfolio-container
+    .items
+      min-width: 320px
+
+  .search-wrapper
+    .submit
+      margin-left: -33px
+
+  .phone
+    width: 15rem
+    margin-bottom: -100px
+
+  .bg-text-block
+    padding: 0 1rem
+    max-width: 100%
 
 /*==========  Mobile First  ==========*/
 

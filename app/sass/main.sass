@@ -7,6 +7,8 @@
 
 ::selection
 	color: #fff
+html
+	font-size: 16px
 
 body
 	font-size: 16px
@@ -104,12 +106,14 @@ footer
 		color: #5f6767
 		font-weight: 100
 		font-size: 2.5rem
+		margin-bottom: 1rem
 	p
 		color: #959595
 		font-size: 0.9rem
+		text-align: justify
 
 .header-descr
-	font-size: 0,93rem
+	font-size: 0.93rem
 
 .portfolio
 	padding: 0
@@ -158,32 +162,38 @@ footer
 
 
 	.items:nth-child(3)
-		background: url('/img/im2.png')
+		background-image: url('/img/im2.png')
 		background-size: cover
 
 	.items:nth-child(4)
 		background: #BD8CBF
 
 	.items:nth-child(5)
-		background: url('/img/im1.png')
+		background-image: url('/img/im1.png')
 		background-size: cover
 
 	.items:nth-child(6)
 		background: #82CA9C
 
 	.items:nth-child(7)
-		background: url('/img/im4.png')
+		background-image: url('/img/im4.png')
 		background-size: cover
 
 .last-text-container
 	display: flex
 	margin-top: 3rem
-	margin-bottom: 2rem
+	flex-wrap: wrap
+	justify-content: center
+	width: 100%
 .text-container
 	display: flex
 	flex-direction: column
 	flex: 1
-	padding-right: 3rem
+	padding: 0 1rem
+	min-width: 300px
+	text-align: justify
+	margin-bottom: 3rem
+
 
 h3
 	color: #5f6767
@@ -204,7 +214,6 @@ h3
 			z-index: 2
 		.header-descr
 			margin-bottom: 2.6rem
-			font-size:
 
 	&:before
 		content: ''
@@ -226,13 +235,14 @@ h3
 
 .good-item
 	padding: 3rem 6rem 3rem 4rem
+	min-width: 500px
 	p
 		color: #99AAB8
 		margin-bottom: 2rem
 
 .good-item.popular
 	background-color: #fff
-	box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.06)
+	box-shadow: 0 0 20px 12px rgba(0, 0, 0, 0.06)
 	.status
 		background-color: #BD8CBF
 
@@ -304,7 +314,7 @@ footer
 		height: 3.5rem
 		border: none
 		font-size: 1.6rem
-		padding-left: 1rem;
+		padding-left: 1rem
 
 	.submit
 		background: #82ca9c
